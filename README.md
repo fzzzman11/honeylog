@@ -2,8 +2,8 @@
 
 # Shadow-HoneyLog
 
-<img src="https://miellasloras.es/wp-content/uploads/2025/07/importe-en-productos-de-nuestras-colmena-SIN-GASTOS-DE-ENVIO-en-concreto-3-tarros-de-Miel-de-brezo-LAS-LORAS-de-1-kg.-3-tarros-de-Miel-de-brezo-LAS-LORAS-de-500-g.gif
-" width="100%" />
+![banner](https://miellasloras.es/wp-content/uploads/2025/07/importe-en-productos-de-nuestras-colmena-SIN-GASTOS-DE-ENVIO-en-concreto-3-tarros-de-Miel-de-brezo-LAS-LORAS-de-1-kg.-3-tarros-de-Miel-de-brezo-LAS-LORAS-de-500-g.gif)
+
 **Honeypot SSH de alta interacción y generación de inteligencia de amenazas en tiempo real**
 
 ![Bash](https://img.shields.io/badge/Bash-4.4%2B-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
