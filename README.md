@@ -2,6 +2,10 @@
 
 # Shadow-HoneyLog
 
+
+https://github.com/user-attachments/assets/a77c5131-f0a5-4b5a-bff1-e4e11675fa3c
+
+
 **Honeypot SSH de alta interacción y generación de inteligencia de amenazas en tiempo real**
 
 ![Bash](https://img.shields.io/badge/Bash-4.4%2B-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
