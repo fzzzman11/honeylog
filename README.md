@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="assets/banner.gif" width="100%" alt="Shadow-HoneyLog banner" />
 
 <h1>🍯 Shadow-HoneyLog</h1>
+
+
+<img src="assets/banner.gif" width="50%" alt="Shadow-HoneyLog banner" />
 
 <b>Honeypot SSH de alta interacción y generación de inteligencia de amenazas en tiempo real</b>
 
