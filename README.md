@@ -1,18 +1,26 @@
 <div align="center">
 
-# Shadow-HoneyLog
+<img src="assets/banner.gif" width="100%" alt="Shadow-HoneyLog banner" />
 
-![banner](https://miellasloras.es/wp-content/uploads/2025/07/importe-en-productos-de-nuestras-colmena-SIN-GASTOS-DE-ENVIO-en-concreto-3-tarros-de-Miel-de-brezo-LAS-LORAS-de-1-kg.-3-tarros-de-Miel-de-brezo-LAS-LORAS-de-500-g.gif)
+<h1>🍯 Shadow-HoneyLog</h1>
 
-**Honeypot SSH de alta interacción y generación de inteligencia de amenazas en tiempo real**
+<b>Honeypot SSH de alta interacción y generación de inteligencia de amenazas en tiempo real</b>
 
-![Bash](https://img.shields.io/badge/Bash-4.4%2B-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Debian%20%7C%20Parrot-1793D1?style=for-the-badge&logo=linux&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-![Security](https://img.shields.io/badge/Security-Defensive%20Monitoring-red?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
+<br><br>
 
-[Descripción](#descripción-técnica) · [Arquitectura](#arquitectura) · [Instalación](#instalación) · [Uso](#guía-de-uso) · [Reporte](#ejemplo-de-reporte-forense)
+<img src="https://img.shields.io/badge/Bash-4.4%2B-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+<img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Debian%20%7C%20Parrot-1793D1?style=for-the-badge&logo=linux&logoColor=white" alt="Platform" />
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
+<img src="https://img.shields.io/badge/Security-Defensive%20Monitoring-red?style=for-the-badge" alt="Security" />
+<img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" alt="Version" />
+
+<br><br>
+
+<a href="#descripción-técnica">Descripción</a> ·
+<a href="#arquitectura">Arquitectura</a> ·
+<a href="#instalación">Instalación</a> ·
+<a href="#guía-de-uso">Uso</a> ·
+<a href="#ejemplo-de-reporte-forense">Reporte</a>
 
 </div>
 
@@ -113,8 +121,8 @@ command -v awk sed grep tail journalctl
 ## Instalación
 
 ```bash
-git clone https://github.com/<TU_USUARIO>/Shadow-HoneyLog.git
-cd Shadow-HoneyLog
+git clone https://github.com/fzzzman11/honeylog.git
+cd honeylog
 chmod +x honeylog.sh
 ```
 
@@ -142,9 +150,9 @@ ssh usuario_falso@192.168.1.50
 Salida esperada en el sensor:
 
 ```text
-[+] Entorno inicializado correctamente en /home/analista/Shadow-HoneyLog/logs
+[+] Entorno inicializado correctamente en /home/analista/honeylog/logs
 [*] Fuente de eventos: /var/log/auth.log
-[*] Evidencia persistente: /home/analista/Shadow-HoneyLog/logs/captured_attacks.log
+[*] Evidencia persistente: /home/analista/honeylog/logs/captured_attacks.log
 [!] Presiona Ctrl+C para interrumpir la vigilancia.
 
 [!] INTRUSIÓN DETECTADA | IP: 192.168.1.77 | Usuario: usuario_falso | Puerto: 51422 | 2026-11-04 02:22:59
@@ -334,11 +342,13 @@ Ejemplo con tráfico proveniente de un túnel:
 ## Estructura del repositorio
 
 ```text
-Shadow-HoneyLog/
+honeylog/
 ├── honeylog.sh              # Sensor, parser y generador de reportes
 ├── README.md                # Documentación técnica
 ├── LICENSE                  # Licencia MIT
 ├── .gitignore               # Exclusión de logs y archivos temporales
+├── assets/
+│   └── banner.gif           # Banner animado del README
 └── logs/                    # Generado en tiempo de ejecución (ignorado por Git)
     └── captured_attacks.log
 ```
@@ -391,7 +401,7 @@ Este proyecto se distribuye bajo la **Licencia MIT**. Consulta [LICENSE](LICENSE
 
 **Shadow-HoneyLog** fue desarrollado como proyecto de laboratorio y portafolio de ciberseguridad ofensiva/defensiva.
 
-- GitHub: [@<TU_USUARIO>](https://github.com/<TU_USUARIO>)
+- GitHub: [@fzzzman11](https://github.com/fzzzman11)
 - Reportes de seguridad: abre un security advisory o contacta al mantenedor.
 
 Si este proyecto te resulta útil, considera darle una estrella en GitHub.
