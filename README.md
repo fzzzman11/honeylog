@@ -2,9 +2,7 @@
 
 # Shadow-HoneyLog
 
-
-https://github.com/user-attachments/assets/a77c5131-f0a5-4b5a-bff1-e4e11675fa3c
-
+https://miellasloras.es/wp-content/uploads/2025/07/importe-en-productos-de-nuestras-colmena-SIN-GASTOS-DE-ENVIO-en-concreto-3-tarros-de-Miel-de-brezo-LAS-LORAS-de-1-kg.-3-tarros-de-Miel-de-brezo-LAS-LORAS-de-500-g.gif
 
 **Honeypot SSH de alta interacción y generación de inteligencia de amenazas en tiempo real**
 
